@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
+          <div class="card">
+            <h2 style="display: flex; align-items: center">
+              <img src="./assets/icon.jpg" alt="Kaguya" style="width: 50px; height: 50px; margin-right: 10px" />
+              Kaguya Extensions
+            </h2>
+            <div class="form-group">
+              <label for="cookies">Cookies:</label>
+              <textarea id="cookies" rows="5" readonly></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="fbstate">FBState:</label>
+              <textarea id="fbstate" rows="7" readonly></textarea>
+              <span>Author: <a href="https://facebook.com/ThieuTrungKi3n" target="_blank">Thiệu Trung Kiên</a></span>
+            </div>
+
+            <button id="copy-button">Copy</button>
+            <button id="export-button">Export</button>
+            <button id="download-button">Download</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
